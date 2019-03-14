@@ -11,12 +11,12 @@ link_directories(lib)
 add_executable(ffmpeg_demo main.cpp)
 
 target_link_libraries(ffmpeg_demo
-        avcodec-58.dll
-        avdevice-58.dll
-        avfilter-7.dll
-        avformat-58.dll
-        avutil-56.dll
-        postproc-55.dll
-        swresample-3.dll
-        swscale-5.dll
+        avcodec-58
+        avdevice-58
+        avfilter-7
+        avformat-58
+        avutil-56
+        postproc-55
+        swresample-3
+        swscale-5
         )

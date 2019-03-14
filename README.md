@@ -58,6 +58,8 @@ target_link_libraries(ffmpeg_demo
 ```
 其中target_link_libraries的位置要放在add_executable之后
 
+target_link_libraries 中也可以不写 .dll，只写文件名
+
 6. 编辑 main.cpp 代码
 ```cpp
 #include <iostream>
